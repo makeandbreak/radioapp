@@ -13,5 +13,6 @@
   "author": "makeandbreak (github.com user id)",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.14.2"
   }
 }
