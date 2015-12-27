@@ -1,0 +1,19 @@
+{
+  "name": "radioapp",
+  "version": "1.0.0",
+  "description": "Radio app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "radio",
+    "app"
+  ],
+  "author": "Rolf Missing",
+  "license": "ISC",
+  "dependencies": {
+    "minimum-tls-version": "0.0.3",
+    "ssl-root-cas": "^1.1.10"
+  }
+}
