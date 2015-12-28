@@ -4,6 +4,10 @@ Copyright 2015 makeandbreak (github.com user id)
 
 See src headers for granted code usage rights and disclaimers
 
+Ths is a partially hard coded hobby hack so it may only be of 
+interest for 'code borrowers' and may not be so useful as 
+a complete application.
+
 Simple nodejs web application that lists pre-configured streaming
 radio stations and makes them selectable
 
@@ -17,4 +21,10 @@ To run:
 
    node index.js   
 
+To access running server
 
+   http://<server ip>:8081/
+
+To update station list edit
+
+   stations.json
