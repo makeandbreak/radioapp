@@ -17,6 +17,15 @@ that supports nodejs (version not critical) and has
 'Music Player Deamon' with it's command line client package
 installed.
 
+To use https uncomment 'for ssl:' code in index.js. You will 
+need to generate a server certificate and register it with a 
+CA to make this truly a usable option. I have also noted that 
+most 'Mobile/Pad' browsers do not permit usage of certificates
+not registered with a CA (at minimum they block the loading of 
+page scripts). Also older nodejs versions can not be used as 
+they do not implement the 'cipher' configuration now inforced
+by latest releases of Chrome etc  
+
 To run:
 
    node index.js   
