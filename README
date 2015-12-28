@@ -17,6 +17,12 @@ that supports nodejs (version not critical) and has
 'Music Player Deamon' with it's command line client package
 installed.
 
+Does not play nice with 'mpd' if there are other clients 
+using it at the same time. You have been WARNED! 
+
+radioapp.sh is included so radioapp can be automatically started
+by copying this file to /etc/init.d
+
 To use https uncomment 'for ssl:' code in index.js. You will 
 need to generate a server certificate and register it with a 
 CA to make this truly a usable option. I have also noted that 
