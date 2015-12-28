@@ -1,0 +1,20 @@
+Radio App
+
+Copyright 2015 makeandbreak (github.com user id)
+
+See src headers for granted code usage rights and disclaimers
+
+Simple nodejs web application that lists pre-configured streaming
+radio stations and makes them selectable
+
+To run this you need to understan how to set up nodejas and 
+the 'require' packages. This code runs on any Linux install
+that supports nodejs (version not critical) and has 
+'Music Player Deamon' with it's command line client package
+installed.
+
+To run:
+
+   node index.js   
+
+
